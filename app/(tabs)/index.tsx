@@ -1,10 +1,10 @@
 import { Text, View } from "react-native";
+import { Header } from "react-native/Libraries/NewAppScreen";
 
 export default function Index() {
   return (
     <View>
-    
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text> ol</Text>
     </View>
   );
 }
