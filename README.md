@@ -1,6 +1,7 @@
- + props
+# CofeGo
 
+CofeGo é um aplicativo mobile de cardápio online. Esse cardápio online tem como objetivo garantir a agilidade de atendimento nas cafeterias.
 
-1 -> O nome do projeto deve ser alterado para CoffeGo
-
-Inicialmente deve ter uma lista de cafes
+- Aplicativo dedicado a Mobile
+- Publico alvo: Cafeterias e clientes
+- Frameworks: Expo e React-Native
