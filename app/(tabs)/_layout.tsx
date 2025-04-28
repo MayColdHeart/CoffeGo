@@ -8,7 +8,7 @@ export default function layoutTabs() {
     return (
     <Tabs screenOptions = {{ tabBarActiveTintColor: 'black' }} initialRouteName='index' >
          
-        <Tabs.Screen name = 'menu' options = {{ 
+        <Tabs.Screen name = 'sabores' options = {{ 
             
             title: 'Sabores de Cafe', 
             tabBarIcon: () => <Image style={styles.icon} source = {require('@/assets/images/icons/coffeCup.png')}/>
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
 
     headersty:{
         color: 'white',
-        fontSize: 40,    
+        fontSize: 35,    
     },
     container: {
         flex: 1,
@@ -50,10 +50,11 @@ const styles = StyleSheet.create({
         width: 30,
         height: 30,
     },
+
     theme: {
-        width: 670,
+        width: 720,
         height: 90,
-        right: 125,
+        right: 170,
 
     },
 
